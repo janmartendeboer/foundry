@@ -47,7 +47,7 @@ Neutralino.events.on('windowClose', quit);
 // noinspection JSIgnoredPromiseFromCall
 Neutralino.os.setTray(
     {
-        icon: '/resources/icons/trayIcon.png',
+        icon: '/resources/icons/tray/foundry.png',
         menuItems: [
             {id: 'showAbout', text: 'About'},
             {text: '-'},
